@@ -5,6 +5,7 @@ public class Singleton {
     public static Singleton singleton;
 
     private Singleton(){
+
     }
 
     public static  Singleton getSingleton(){
@@ -15,4 +16,6 @@ public class Singleton {
         }
         return  singleton;
     }
+
+
 }
