@@ -2,7 +2,7 @@ package com.ktb.design.mode.singleton;
 
 public class Singleton {
 
-    public static Singleton singleton;
+    public static volatile Singleton singleton;
 
     private Singleton(){
 
