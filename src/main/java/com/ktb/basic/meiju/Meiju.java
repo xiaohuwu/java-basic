@@ -1,4 +1,4 @@
-package com.ktb.basic.MeiJu;
+package com.ktb.basic.meiju;
 
 /**
  * Created by dell on 2018-10-19.

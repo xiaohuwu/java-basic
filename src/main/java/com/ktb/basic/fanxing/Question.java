@@ -1,4 +1,4 @@
-package com.ktb.basic.FanXing;
+package com.ktb.basic.fanxing;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;

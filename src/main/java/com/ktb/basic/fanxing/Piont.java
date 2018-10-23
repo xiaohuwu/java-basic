@@ -1,4 +1,4 @@
-package com.ktb.basic.FanXing;
+package com.ktb.basic.fanxing;
 
 /**
  * Created by dell on 2018-10-19.
@@ -37,7 +37,7 @@ public class Piont<K extends Object, V> {
     }
 
     public static void main(String[] args) {
-        Piont<String, Integer> piont = new Piont<>("xiaohu", 23);
+        Piont piont = new Piont("xiaohu", 23);
         fun(piont);
     }
 

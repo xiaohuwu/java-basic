@@ -1,4 +1,4 @@
-package com.ktb.basic.FanXing;
+package com.ktb.basic.fanxing;
 
 /**
  * Created by dell on 2018-10-19.
