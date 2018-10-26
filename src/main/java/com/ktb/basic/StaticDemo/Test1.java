@@ -5,8 +5,9 @@ import com.ktb.design.mode.adapter.Test;
  * static 变量 也称全局变量 被所有对象共享
  */
 public class Test1 {
-    private static int count = 0;
 
+    //一般来说 用静态常量
+    private static int count = 0;
     public Test1() {
         count++;
     }

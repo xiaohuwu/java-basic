@@ -1,4 +1,6 @@
-package com.ktb.basic;
+package com.ktb.basic.valuepass;
+
+import com.ktb.basic.Dog;
 
 import java.util.Arrays;
 

@@ -1,5 +1,8 @@
 package com.ktb.basic.annotation;
 
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.PrintStream;
 import java.lang.annotation.Annotation;
 import java.lang.reflect.Method;
 
@@ -15,6 +18,7 @@ public class Person {
     }
 
     public static void main(String[] args) {
+
         Person person = new Person();
         Class clz = person.getClass();
         MyAnnotation annotation = (MyAnnotation) clz.getAnnotation(MyAnnotation.class);
